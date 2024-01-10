@@ -762,16 +762,25 @@ ul li img {
     margin-left: 23px;
 }
 
-.links {
+.links ul {
     display: flex;
-    height: 10px;
+    /* height: 10px; */
+    width: 5%;
+    margin-top: 20px;
+    margin-left: 0px;
+
+}
+
+.links ul li {
+    gap: 5px;
+    list-style: none;
 }
 
 footer {
     position: relative;
 }
 
-.footerCopy {
+.footerCopy p {
     padding: 0px 415px;
 
     bottom: 0;
